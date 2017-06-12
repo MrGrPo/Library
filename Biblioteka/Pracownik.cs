@@ -56,20 +56,7 @@ namespace Biblioteka
             
         }
 
-       /* private void Pracownik_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (sqlConnection != null && sqlConnection.State != ConnectionState.Closed)
-                sqlConnection.Close();
-
-        }
-
-       /* private void zamknToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (sqlConnection != null && sqlConnection.State != ConnectionState.Closed)
-                sqlConnection.Close();
-
-        }
-        */
+     
         private async void button1_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox10.Text) && !string.IsNullOrWhiteSpace(textBox10.Text) &&

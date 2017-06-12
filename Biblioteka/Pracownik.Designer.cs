@@ -31,11 +31,11 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zamknToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.odśToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -59,6 +59,8 @@
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
@@ -78,9 +80,6 @@
             this.label21 = new System.Windows.Forms.Label();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -102,8 +101,7 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zamknToolStripMenuItem,
-            this.odśToolStripMenuItem});
+            this.zamknToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -111,15 +109,8 @@
             // zamknToolStripMenuItem
             // 
             this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
-            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zamknToolStripMenuItem.Text = "Zamknij";
-            // 
-            // odśToolStripMenuItem
-            // 
-            this.odśToolStripMenuItem.Name = "odśToolStripMenuItem";
-            this.odśToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.odśToolStripMenuItem.Text = "Odświeżyć";
-            this.odśToolStripMenuItem.Click += new System.EventHandler(this.odśToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
@@ -166,6 +157,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "DELETE";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(190, 15);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label1
             // 
@@ -413,6 +414,22 @@
             this.tabPage4.Text = "UPDATE";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(307, 173);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(16, 13);
+            this.label2.TabIndex = 56;
+            this.label2.Text = "Id";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(338, 170);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 55;
+            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -585,32 +602,6 @@
             this.textBox19.Size = new System.Drawing.Size(100, 20);
             this.textBox19.TabIndex = 36;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(307, 173);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(16, 13);
-            this.label2.TabIndex = 56;
-            this.label2.Text = "Id";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(338, 170);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 55;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(190, 15);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // Pracownik
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -668,7 +659,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ToolStripMenuItem odśToolStripMenuItem;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox12;
