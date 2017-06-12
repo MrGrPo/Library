@@ -46,10 +46,8 @@
             this.textBox16 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zamknToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.odśToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -59,8 +57,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.zamknToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.odśToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -156,7 +156,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(497, 250);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Dodać";
+            this.tabPage3.Text = "INSERT";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -253,37 +253,21 @@
             this.tabPage4.Text = "UPDATE";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // menuStrip1
+            // label7
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(505, 24);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(305, 93);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(16, 13);
+            this.label7.TabIndex = 60;
+            this.label7.Text = "Id";
             // 
-            // fileToolStripMenuItem
+            // textBox7
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zamknToolStripMenuItem,
-            this.odśToolStripMenuItem});
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fileToolStripMenuItem.Text = "File";
-            // 
-            // zamknToolStripMenuItem
-            // 
-            this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
-            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.zamknToolStripMenuItem.Text = "Zamknij";
-            // 
-            // odśToolStripMenuItem
-            // 
-            this.odśToolStripMenuItem.Name = "odśToolStripMenuItem";
-            this.odśToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.odśToolStripMenuItem.Text = "Odświeżyć";
-            this.odśToolStripMenuItem.Click += new System.EventHandler(this.odśToolStripMenuItem_Click);
+            this.textBox7.Location = new System.Drawing.Point(336, 90);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 59;
             // 
             // button2
             // 
@@ -359,21 +343,37 @@
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 34;
             // 
-            // label7
+            // menuStrip1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(305, 93);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(16, 13);
-            this.label7.TabIndex = 60;
-            this.label7.Text = "Id";
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(505, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // textBox7
+            // fileToolStripMenuItem
             // 
-            this.textBox7.Location = new System.Drawing.Point(336, 90);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 59;
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.zamknToolStripMenuItem,
+            this.odśToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // zamknToolStripMenuItem
+            // 
+            this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
+            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.zamknToolStripMenuItem.Text = "Zamknij";
+            // 
+            // odśToolStripMenuItem
+            // 
+            this.odśToolStripMenuItem.Name = "odśToolStripMenuItem";
+            this.odśToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.odśToolStripMenuItem.Text = "Odświeżyć";
+            this.odśToolStripMenuItem.Click += new System.EventHandler(this.odśToolStripMenuItem_Click);
             // 
             // Książki
             // 

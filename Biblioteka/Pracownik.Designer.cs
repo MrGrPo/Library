@@ -109,7 +109,7 @@
             // zamknToolStripMenuItem
             // 
             this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
-            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.zamknToolStripMenuItem.Text = "Zamknij";
             // 
             // tabControl1
@@ -209,7 +209,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(608, 243);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Dodać";
+            this.tabPage3.Text = "INSERT";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // label12
