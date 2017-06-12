@@ -74,7 +74,7 @@ namespace Biblioteka
             }
             else
             {
-                MessageBox.Show("Alll");
+                MessageBox.Show("wszystkie pola muszą być wypełnione");
             }
         }
 
@@ -118,7 +118,7 @@ namespace Biblioteka
             }
             else
             {
-                MessageBox.Show("Alll");
+                MessageBox.Show("wszystkie pola muszą być wypełnione");
             }
         }
 
