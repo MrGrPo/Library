@@ -10,6 +10,6 @@ namespace UnitTest
 {
    public class BibliotekaTest
     {
-        public
+    
     }
 }
