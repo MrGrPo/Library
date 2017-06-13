@@ -21,6 +21,11 @@ namespace Biblioteka
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Podłącza bazę danych oraz wywoluje na listbox w zakładce książki zawartość tabeli książki z bazy danych
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Książki_Load(object sender, EventArgs e)
         {
             string connectionSring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\forwa\documents\visual studio 2017\Projects\Biblioteka\Biblioteka\Biblioteka.mdf;Integrated Security=True";
@@ -52,6 +57,11 @@ namespace Biblioteka
 
         }
 
+        /// <summary>
+        /// Zapisuje wartość wszystkich textboxsów w zakładce INSERT do tabeli, jeśli one  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button1_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox15.Text) && !string.IsNullOrWhiteSpace(textBox15.Text) &&
@@ -79,6 +89,11 @@ namespace Biblioteka
             }
         }
 
+        /// <summary>
+        /// Wywoluje na listbox w zakładce książki zawartość tabeli książki z bazy danych po działaniu jakiejś metody
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void odśToolStripMenuItem_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
@@ -110,6 +125,11 @@ namespace Biblioteka
 
         }
 
+        /// <summary>
+        /// Aktualizuje wartość komórek w tabeli, jakie przypisane do  textboxsów po Id w zakładce UPDATE, jeśli one  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button2_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox6.Text) && !string.IsNullOrWhiteSpace(textBox6.Text) &&
@@ -138,6 +158,11 @@ namespace Biblioteka
             }
         }
 
+        /// <summary>
+        /// Usuwa z tabeli wiersz z takim samym Id jak użytkownik wpisał w textbox w zakładce DELETE, jeśli on  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button3_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox1.Text) && !string.IsNullOrWhiteSpace(textBox1.Text)

@@ -18,21 +18,33 @@ namespace Biblioteka
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Tworzony jest obiekt klasy klient, a następnie wywoływana jest metoda show na ten objekt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void klientToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Klient frm = new Klient();
 
             frm.Show();
         }
-
+        /// <summary>
+        /// Tworzony jest obiekt klasy pracownik, a następnie wywoływana jest metoda show na ten objekt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void pracownikToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Pracownik frm = new Pracownik();
 
             frm.Show();
         }
-
+        /// <summary>
+        /// Podłącza bazę danych
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Form1_Load(object sender, EventArgs e)
         {
             string connectionSring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\forwa\documents\visual studio 2017\Projects\Biblioteka\Biblioteka\Biblioteka.mdf;Integrated Security=True";
@@ -42,6 +54,11 @@ namespace Biblioteka
 
         }
 
+        /// <summary>
+        /// Zapisuje wartość wszystkich textboxsów w zakładce klient do tabeli, jeśli one  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button1_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox1.Text) && !string.IsNullOrWhiteSpace(textBox1.Text) &&
@@ -78,6 +95,11 @@ namespace Biblioteka
             }
         }
 
+        /// <summary>
+        /// Tworzony jest obiekt klasy zamówienie, a następnie wywoływana jest metoda show na ten objekt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void zamówienieToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Zamówienie frm = new Zamówienie();
@@ -85,7 +107,11 @@ namespace Biblioteka
             frm.Show();
 
         }
-
+        /// <summary>
+        /// Tworzony jest obiekt klasy książki, a następnie wywoływana jest metoda show na ten objekt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void książkiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Książki frm = new Książki();
@@ -93,6 +119,11 @@ namespace Biblioteka
             frm.Show();
         }
 
+        /// <summary>
+        /// Zapisuje wartość wszystkich textboxsów oraz dateTimePicker2 w zakładce zamówienie do tabeli, jeśli one  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button2_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(textBox10.Text) && !string.IsNullOrWhiteSpace(textBox10.Text) &&
@@ -122,6 +153,11 @@ namespace Biblioteka
             }
         }
 
+        /// <summary>
+        /// Tworzony jest obiekt klasy about, a następnie wywoływana jest metoda show na ten objekt
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             About frm = new About();

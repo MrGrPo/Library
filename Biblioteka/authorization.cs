@@ -17,6 +17,11 @@ namespace Biblioteka
             InitializeComponent();
         }
 
+        /// <summary>
+        /// pokazuje, że jeśli użytkownik wprowadzi w dwoch textbox poprawne wartości - uruchomi się okno główne. Jeśli nie, to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "Admin")
@@ -36,7 +41,11 @@ namespace Biblioteka
 
             
         }
-
+        /// <summary>
+        /// zamyka okno
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

@@ -17,11 +17,21 @@ namespace Biblioteka
             InitializeComponent();
         }
 
+        /// <summary>
+        /// zamyka okno
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        /// <summary>
+        /// Do label przypisuje znaczenie ProductName oraz ProductVersion
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void About_Load(object sender, EventArgs e)
         {
             label1.Text = string.Format("Product name: {0}", Application.ProductName);

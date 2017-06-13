@@ -18,7 +18,11 @@ namespace Biblioteka
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Podłącza bazę danych oraz wywoluje na listbox w zakładce klient zawartość tabeli klient z bazy danych
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Klient_Load(object sender, EventArgs e)
         {
             string connectionSring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\forwa\documents\visual studio 2017\Projects\Biblioteka\Biblioteka\Biblioteka.mdf;Integrated Security=True";
@@ -49,6 +53,7 @@ namespace Biblioteka
             }
         }
 
+
         private void zamkrToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (sqlConnection != null && sqlConnection.State != ConnectionState.Closed)
@@ -63,6 +68,11 @@ namespace Biblioteka
 
         }
 
+        /// <summary>
+        /// Aktualizuje wartość komórek w tabeli, jakie przypisane do  textboxsów po Id w zakładce UPDATE, jeśli one  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void button2_Click(object sender, EventArgs e)
         {
            
@@ -102,6 +112,11 @@ namespace Biblioteka
             
         }
 
+        /// <summary>
+        /// Wywoluje na listbox w zakładce klient zawartość tabeli klient z bazy danych po działaniu jakiejś metody
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void odświeżyćToolStripMenuItem_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
@@ -133,6 +148,12 @@ namespace Biblioteka
             }
 
         }
+
+        /// <summary>
+        /// Usuwa z tabeli wiersz z takim samym Id jak użytkownik wpisał w textbox w zakładce DELETE, jeśli on  nie są puste. Jeśli puste to pojawi się  messagebox z opisem błądu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
 
         private async void button1_Click(object sender, EventArgs e)
         {

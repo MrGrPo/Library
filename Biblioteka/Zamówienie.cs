@@ -19,6 +19,11 @@ namespace Biblioteka
             InitializeComponent();
         }
 
+        /// <summary>
+        /// Podłącza bazę danych oraz wywoluje na listbox w zakładce zamówienie zawartość tabeli zamówienie z bazy danych
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void Zamówienie_Load(object sender, EventArgs e)
         {
             string connectionSring = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\forwa\documents\visual studio 2017\Projects\Biblioteka\Biblioteka\Biblioteka.mdf;Integrated Security=True";
