@@ -2,6 +2,14 @@
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="Biblioteka.authorization">
     <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="authorization" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>ACAAAAAAACAAABAAAACAAAACAAAYAAAAEGAAAAAAAAA=</HashCode>
       <FileName>authorization.cs</FileName>
@@ -9,6 +17,14 @@
   </Class>
   <Class Name="Biblioteka.Form1">
     <Position X="2.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="Form1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>8SCABBAAASEAgBCSEACCAABCIACZFAAgEGRAQAABBIA=</HashCode>
       <FileName>Form1.cs</FileName>
@@ -16,27 +32,60 @@
   </Class>
   <Class Name="Biblioteka.Klient">
     <Position X="4" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="Klient" Hidden="true" />
+      <Method Name="Klient_FormClosing" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>vyCAAAEAACAAQBAQGACAAAACABAZEAAAEOAAAAEBBDA=</HashCode>
+      <HashCode>vyCAAAEAACAAQBAQEACAAAACABAZEAAAEOAAAAEBBDA=</HashCode>
       <FileName>Klient.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Biblioteka.Książki">
     <Position X="5.75" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="Książki" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>dSCAAAEAASIAQhCAQACAAABCAgA4EAACEHAAAAABBAA=</HashCode>
+      <HashCode>dSCAAAEAASAAQhCAQACAAABCAgA4EAACEHAAAAABBAA=</HashCode>
       <FileName>Książki.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Biblioteka.Pracownik">
     <Position X="7.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="Pracownik" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
-      <HashCode>/yCAAAkAASIAQhCQEACAAAACIAA4EAACEHAAAAABBLA=</HashCode>
+      <HashCode>/yCAAAkAASIAQBCQEACAAQACIAA4EAACEHAAAAABBLA=</HashCode>
       <FileName>Pracownik.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Biblioteka.Zamówienie">
     <Position X="9.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="Zamówienie" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>BQAAAAEAACAACAAAAACAAABCAAAAEAAAAAAAAAABBAA=</HashCode>
       <FileName>Zamówienie.cs</FileName>
@@ -44,6 +93,14 @@
   </Class>
   <Class Name="Biblioteka.About">
     <Position X="11" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="About" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAABAAAACAAAACAAAIAAAAIEAAAAAAAAA=</HashCode>
       <FileName>About.cs</FileName>
