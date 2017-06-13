@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['dispose',['Dispose',['../class_biblioteka_1_1_about.html#ae46b736c38521c1c20e00fad6979cdf9',1,'Biblioteka.About.Dispose()'],['../class_biblioteka_1_1authorization.html#a93c2ea374a360b091974a617f76f63ac',1,'Biblioteka.authorization.Dispose()'],['../class_biblioteka_1_1_form1.html#af5983327eaa75c22f4d1be3afd03b184',1,'Biblioteka.Form1.Dispose()'],['../class_biblioteka_1_1_klient.html#abc5ba28c26800c700600a2a19a1305f4',1,'Biblioteka.Klient.Dispose()'],['../class_biblioteka_1_1_ksi_xC4_x85_xC5_xBCki.html#a3b820e000ec4ac60b7dc5d7c9da7660b',1,'Biblioteka.Książki.Dispose()'],['../class_biblioteka_1_1_pracownik.html#a62a6ef549abc407e62d0992080bd8709',1,'Biblioteka.Pracownik.Dispose()'],['../class_biblioteka_1_1_zam_xC3_xB3wienie.html#a1398f1e24c48fa539f5afe91527eec6f',1,'Biblioteka.Zamówienie.Dispose()']]]
-];
