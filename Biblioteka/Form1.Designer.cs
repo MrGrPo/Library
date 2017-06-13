@@ -100,28 +100,28 @@
             // klientToolStripMenuItem
             // 
             this.klientToolStripMenuItem.Name = "klientToolStripMenuItem";
-            this.klientToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.klientToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.klientToolStripMenuItem.Text = "Klient";
             this.klientToolStripMenuItem.Click += new System.EventHandler(this.klientToolStripMenuItem_Click);
             // 
             // pracownikToolStripMenuItem
             // 
             this.pracownikToolStripMenuItem.Name = "pracownikToolStripMenuItem";
-            this.pracownikToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.pracownikToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.pracownikToolStripMenuItem.Text = "Pracownik";
             this.pracownikToolStripMenuItem.Click += new System.EventHandler(this.pracownikToolStripMenuItem_Click);
             // 
             // zamówienieToolStripMenuItem
             // 
             this.zamówienieToolStripMenuItem.Name = "zamówienieToolStripMenuItem";
-            this.zamówienieToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.zamówienieToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.zamówienieToolStripMenuItem.Text = "Zamówienie";
             this.zamówienieToolStripMenuItem.Click += new System.EventHandler(this.zamówienieToolStripMenuItem_Click);
             // 
             // książkiToolStripMenuItem
             // 
             this.książkiToolStripMenuItem.Name = "książkiToolStripMenuItem";
-            this.książkiToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
+            this.książkiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.książkiToolStripMenuItem.Text = "Książki";
             this.książkiToolStripMenuItem.Click += new System.EventHandler(this.książkiToolStripMenuItem_Click);
             // 
@@ -472,7 +472,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Biblioteka";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

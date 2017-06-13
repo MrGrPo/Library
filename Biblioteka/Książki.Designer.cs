@@ -59,7 +59,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zamknToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.odśToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -356,22 +355,15 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zamknToolStripMenuItem,
             this.odśToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
-            // zamknToolStripMenuItem
-            // 
-            this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
-            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
-            this.zamknToolStripMenuItem.Text = "Zamknij";
-            // 
             // odśToolStripMenuItem
             // 
             this.odśToolStripMenuItem.Name = "odśToolStripMenuItem";
-            this.odśToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.odśToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.odśToolStripMenuItem.Text = "Odświeżyć";
             this.odśToolStripMenuItem.Click += new System.EventHandler(this.odśToolStripMenuItem_Click);
             // 
@@ -422,7 +414,6 @@
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zamknToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem odśToolStripMenuItem;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;

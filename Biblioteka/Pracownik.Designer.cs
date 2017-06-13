@@ -109,8 +109,9 @@
             // zamknToolStripMenuItem
             // 
             this.zamknToolStripMenuItem.Name = "zamknToolStripMenuItem";
-            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.zamknToolStripMenuItem.Text = "Zamknij";
+            this.zamknToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.zamknToolStripMenuItem.Text = "Odświeżyć";
+            this.zamknToolStripMenuItem.Click += new System.EventHandler(this.zamknToolStripMenuItem_Click);
             // 
             // tabControl1
             // 
